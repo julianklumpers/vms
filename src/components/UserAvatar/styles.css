@@ -1,0 +1,11 @@
+.userAvatar {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  color: #333;
+  padding-right: 10px;
+}
+
+.userAvatar .icon {font-size:60px; margin-left:15px;}
+.userAvatar h3 {margin:0}
+.userAvatar span {font-size:12px}

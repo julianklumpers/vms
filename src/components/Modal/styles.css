@@ -1,0 +1,28 @@
+.modalContainer {
+  position: absolute;
+  top: -320px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 500px;
+  background: #fff;
+  z-index: 9999;
+  padding: 20px;
+  -webkit-box-shadow: 0 0 10px 0 #444;
+  box-shadow: 0 0 25px 0 #999;
+  border-radius: 5px;
+  transition: all .2s;
+  visibility: hidden;
+}
+
+.show {
+  visibility: visible;
+  top: 50px;
+}
+
+.modalHeader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.modalHeader p {margin:0;padding:0;font-size:20px}
+.modalHeader a {color: #333}

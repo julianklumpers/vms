@@ -1,0 +1,29 @@
+.badge {
+  font-weight: normal !important;
+  text-align: center;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 200px;
+  position: relative;
+}
+.openstaand {background: coral}
+.in_behandeling {background: #2196F3}
+.geweigerd {background: #ef5350}
+.geaccepteerd {background: #4caf50}
+
+.badgeDropdown {
+  position: absolute;
+  height: auto;
+  left: 0;
+  right: 0;
+  padding-top: 5px;
+  transition: all 2s;
+}
+
+.badgeDropdown span {
+  margin-top: 5px;
+  display: block;
+  cursor: pointer;
+}
+
+.carrot {float: right; margin: -2px -3px 0px 3px}

@@ -1,0 +1,38 @@
+.loginContainer {
+  position: absolute;
+  left: 50%;
+  top: 45%;
+  transform: translate(-50%, -50%);
+}
+
+.loginForm {
+	padding: 20px;
+  background: #fff;
+  width: 500px;
+  position: relative;
+}
+
+.loginButtons {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.loginButtons button.facebook {background: #4267b2}
+.loginButtons button.google {background: #db4437}
+.loginButtons button {
+	border: none;
+  color: #fff;
+  padding: 15px 20px;
+  border-radius: 3px;
+  width: 48%;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  cursor: pointer;
+}
+.loginButtons button i {
+	font-size: 20px;
+  margin-right: 10px;
+}

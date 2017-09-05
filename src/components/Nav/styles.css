@@ -1,0 +1,19 @@
+nav {
+  margin: 20px 0;
+  background: #6fbe44;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  border-radius: 3px;
+}
+
+nav a {
+  color: #fff;
+  padding: 15px 25px;
+  display: block;
+  float: left;
+}
+
+.active {
+  background: #8ed06a;
+}

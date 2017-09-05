@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+body {margin:0; padding:0; font-family: 'Open Sans', sans-serif; background: #f9f9f9}
+body * {box-sizing:border-box}
+a {text-decoration:none}
+input,button,select,textarea {outline:none}
+h1,h2,h3,h4,h5,h6 {margin:0;padding:0;}
+
+.mainContainer {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+/*--------------------------*
+	Material icons default styles
+*--------------------------*/
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+/*--------------------------*
+	/Material icons default styles
+*--------------------------*/
+/*--------------------------*
+	Simple flex grid system
+*--------------------------*/
+	.flexRow {
+	  display: flex;
+	  /*flex-wrap: wrap;*/
+	}
+
+	.flexRow > div:first-child {
+	  padding-left: 0;
+	}
+
+	.flexRow > div:last-child {
+	  padding-right: 0;
+	}
+
+	.flexColumn {
+	  flex-grow: 1;
+	  padding: 20px 20px;
+		position: relative;
+	}
+
+	.center {
+	  display: flex;
+	  align-items: center;
+	  flex-direction: column;
+	}
+/*--------------------------*
+	/Simple flex grid system
+*--------------------------*/
+/*--------------------------*
+	Form styles
+*--------------------------*/
+	.formGroup {
+	  	margin-bottom: 15px;
+	  }
+
+	.formGroup div {
+		width: 100%;
+		margin-right: 10px;
+	}
+
+	.formGroup div:last-child {
+		margin-right: 0;
+	}
+
+	.formGroup label.formLabel {
+		display: block;
+	  font-size: 14px;
+	  padding: 5px 0;
+	}
+
+	.formGroup span.formError {
+		display: block;
+		color: #E57373;
+		padding: 5px 0 0 10px;
+		font-size: 12px;
+	}
+
+	.formGroup input[type="text"], .formGroup input[type="password"] {
+		font-family: 'FontAwesome', 'Open Sans';
+		width: 100%;
+	  padding: 10px;
+	  font-size: 16px;
+	  border: none;
+	  border-bottom: 5px solid #e2e2e2;
+	  color: #333;
+	}
+
+	.formDivider {
+		display: flex;
+	  justify-content: center;
+	  align-items: center;
+	  margin: 25px 0;
+	  background: #e2e2e2;
+	  position: relative;
+	  height: 1px;
+	}
+
+	.formDivider span {
+		background: #fff;
+	  padding: 0 15px;
+	  color: #4a4a4a;
+	  font-size: 14px;
+	}
+
+	.formGroup button {
+		padding: 5px 20px;
+	  border: none;
+	  width: 100%;
+	  height: 50px;
+	  font-size: 16px;
+	  border-radius: 3px;
+	  background: #6fbe44;
+	  cursor: pointer;
+	  color: #fff;
+	  display: block;
+	}
+
+	.formGroup button:disabled {
+		background: #e2e2e2;
+		cursor: not-allowed;
+	}
+/*--------------------------*
+	/Form styles
+*--------------------------*/
+/*--------------------------*
+	Messages
+*--------------------------*/
+	.message {
+		padding: 10px;
+		border-radius: 3px;
+		color: #fff;
+		font-size: 12px;
+	}
+
+	.message.error {
+		background: #dc5454;
+	}
+
+/*--------------------------*
+	/Messages
+*--------------------------*/
